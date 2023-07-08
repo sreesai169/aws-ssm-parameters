@@ -12,6 +12,8 @@ parameters = [
   { name = "dev.user.mongo", value = "MONGO=true"},
   { name = "dev.cart.redis_host", value = "redis-dev.devops16.online"},
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.devops16.online"},
-  { name = "dev.cart.catalogue_port", value = "8080"}
+  { name = "dev.cart.catalogue_port", value = "8080"},
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.devops16.online:8080"},
+  { name = "dev.shipping.db_host", value = "mysql-dev.devops16.online"}
 
 ]
