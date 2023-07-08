@@ -1,3 +1,3 @@
 bucket = "terraform-a72"
-key="parameter-store/dev/terraform.tfstate"
+key="parameter/dev/terraform.tfstate"
 region="us-east-1"
