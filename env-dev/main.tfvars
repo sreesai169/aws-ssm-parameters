@@ -16,13 +16,17 @@ parameters = [
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.devops16.online:8080"},
   { name = "dev.shipping.db_host", value = "mysql-dev.devops16.online"},
   { name = "dev.shipping.db_user", value = "root"},
-  { name = "dev.shipping.db_pass", value = "RoboShop@1"},
   { name = "dev.payment.cart_host", value = "cart-dev.devops16.online"},
   { name = "dev.payment.cart_port", value = "8080"},
   { name = "dev.payment.user_host", value = "user-dev.devops16.online"},
   { name = "dev.payment.user_port", value = "8080"},
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.devops16.online"},
   { name = "dev.payment.amqp_user", value = "roboshop"},
-  { name = "dev.payment.amqp_pass", value = "roboshop123"}
 
+]
+
+passwords=[
+
+  { name = "dev.payment.amqp_pass", value = "roboshop123"},
+  { name = "dev.shipping.db_pass", value = "RoboShop@1"}
 ]
